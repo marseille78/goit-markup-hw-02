@@ -1,0 +1,48 @@
+:root {
+  --ff-base: "Roboto", sans-serif;
+  --ff-second: "Raleway", sans-serif;
+  --c-iris: #4D5AE5;
+  --c-navy-blue: #2E2F42;
+  --c-green: #31D0AA;
+  --c-slate: #434455;
+  --c-light-slate: #8E8F99;
+  --c-cornflower: #E7E9FC;
+  --c-cloud: #F4F4FD;
+  --c-navy-blue-modal: rgba(46, 47, 66, 0.4);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: var(--ff-base);
+  color: var(--c-text);
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+button {
+  cursor: pointer;
+}
+
+.top-contacts-link {
+  color: var(--c-slate);
+  text-decoration: none;
+}
+
+.top-contacts-link:hover,
+.top-contacts-link:focus {
+  color: var(--c-light-slate);
+  outline: none;
+}
+
+.btn {
+  color: #fff;
+  font-weight: 600;
+  background-color: var(--c-iris);
+  border: none;
+}
