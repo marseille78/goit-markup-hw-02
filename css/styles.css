@@ -11,6 +11,14 @@
   --c-navy-blue-modal: rgba(46, 47, 66, 0.4);
 }
 
+/* .helpers */
+
+.ls-none {
+  list-style: none;
+}
+
+/* base */
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -19,30 +27,163 @@
 body {
   background-color: #fff;
   font-family: var(--ff-base);
-  color: var(--c-text);
+  color: var(--c-slate);
   font-size: 16px;
   line-height: 1.5;
-  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 1.07;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+small {
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 4px;
+}
+
+b,
+strong {
+  font-weight: 600;
+}
+
+a {
+  font-weight: 600;
+  color: var(--c-iris);
 }
 
 button {
   cursor: pointer;
 }
 
-.top-contacts-link {
-  color: var(--c-slate);
-  text-decoration: none;
+.page-section-hero {
+  background-color: #2E2F42;
+  color: #fff;
+  text-align: center;
 }
 
-.top-contacts-link:hover,
-.top-contacts-link:focus {
-  color: var(--c-light-slate);
-  outline: none;
+.page-section-accent {
+  background-color: var(--c-cloud);
 }
+
+.page-section-title {
+  text-align: center;
+}
+
+/* .btn */
 
 .btn {
   color: #fff;
   font-weight: 600;
   background-color: var(--c-iris);
   border: none;
+  letter-spacing: 4%;
+}
+
+.btn:hover {
+  background-color: #404BBF;
+}
+
+/* .footer */
+
+.footer {
+  background-color: #2E2F42;
+  color: var(--c-cornflower);
+}
+
+.footer-logo {
+  color: #F4F4FD;
+  font-family: var(--ff-second);
+  font-size: 18px;
+  line-height: 1.17;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.footer-logo span {
+  color: var(--c-iris);
+}
+
+/* .header */
+
+.header-logo {
+  font-family: var(--ff-second);
+  text-decoration: none;
+  color: var(--c-navy-blue);
+  font-size: 18px;
+  line-height: 1.33;
+  font-weight: 800;
+}
+
+.header-logo span {
+  color: var(--c-iris);
+}
+
+.header-contacts-link {
+  color: var(--c-slate);
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: var(--c-iris);
+  outline: none;
+}
+
+/* .nav */
+
+.nav-link {
+  color: var(--c-navy-blue);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-link:focus {
+  color: var(--c-slate);
+}
+
+.nav-link:hover {
+  color: var(--c-iris);
+}
+
+/* .portfolio */
+
+.portfolio-link {
+  text-decoration: none;
+  color: var(--c-slate);
+  font-weight: 400;
+}
+
+.portfolio-title {
+  color: var(--c-navy-blue);
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+/* .team */
+
+.team-item {
+  text-align: center;
+}
+
+.team-item-title {
+  color: var(--c-navy-blue);
+  line-height: 1.2;
 }
